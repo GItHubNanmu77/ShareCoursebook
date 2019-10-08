@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A4464B4234C27CE00EF31DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4464B3234C27CE00EF31DF /* AppDelegate.m */; };
+		4A4464B7234C27CE00EF31DF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4464B6234C27CE00EF31DF /* SceneDelegate.m */; };
+		4A4464BA234C27CE00EF31DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4464B9234C27CE00EF31DF /* ViewController.m */; };
+		4A4464BD234C27CE00EF31DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4464BB234C27CE00EF31DF /* Main.storyboard */; };
+		4A4464BF234C27D000EF31DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4464BE234C27D000EF31DF /* Assets.xcassets */; };
+		4A4464C2234C27D000EF31DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4464C0234C27D000EF31DF /* LaunchScreen.storyboard */; };
+		4A4464C5234C27D000EF31DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4464C4234C27D000EF31DF /* main.m */; };
+		4A4464CF234C27D000EF31DF /* ShareBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4464CE234C27D000EF31DF /* ShareBookTests.m */; };
+		4A4464DA234C27D000EF31DF /* ShareBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4464D9234C27D000EF31DF /* ShareBookUITests.m */; };
+		4A44658A234C67B400EF31DF /* SCBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A446589234C67B400EF31DF /* SCBNavigationController.m */; };
+		4A44658D234C67EB00EF31DF /* SCBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A44658C234C67EB00EF31DF /* SCBTabBarController.m */; };
+		4A446591234C6AC600EF31DF /* SCBCustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A446590234C6AC600EF31DF /* SCBCustomTabBar.m */; };
+		4A446594234C71CC00EF31DF /* SCBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A446593234C71CC00EF31DF /* SCBHomeViewController.m */; };
+		4A446597234C71D400EF31DF /* SCBMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A446596234C71D400EF31DF /* SCBMineViewController.m */; };
+		4A44659A234C71ED00EF31DF /* SCBBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A446599234C71ED00EF31DF /* SCBBookViewController.m */; };
+		4A44659D234C722500EF31DF /* SCBFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A44659C234C722500EF31DF /* SCBFindViewController.m */; };
+		4A4465A1234C7D0700EF31DF /* SCBPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4465A0234C7D0700EF31DF /* SCBPublishViewController.m */; };
+		92C209CFE5D1F38178918B9F /* libPods-ShareBookTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B02D1A42A4226B8D82C0DE4 /* libPods-ShareBookTests.a */; };
+		A5BBEFF8593E1744E9F20187 /* libPods-ShareBookUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1951578DDE65D4C381BDF51C /* libPods-ShareBookUITests.a */; };
+		F7267C62A43356278D828529 /* libPods-ShareBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D687F95AC6C6C021DCC5CD00 /* libPods-ShareBook.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A4464CB234C27D000EF31DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A4464A7234C27CE00EF31DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A4464AE234C27CE00EF31DF;
+			remoteInfo = ShareBook;
+		};
+		4A4464D6234C27D000EF31DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A4464A7234C27CE00EF31DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A4464AE234C27CE00EF31DF;
+			remoteInfo = ShareBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		177684D6AEC28D7C05527487 /* Pods-ShareBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareBookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareBookUITests/Pods-ShareBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1951578DDE65D4C381BDF51C /* libPods-ShareBookUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShareBookUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2747816F17E0DBEED2E310B3 /* Pods-ShareBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareBookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareBookTests/Pods-ShareBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B67C9B7167E660CFA7F9797 /* Pods-ShareBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareBook/Pods-ShareBook.release.xcconfig"; sourceTree = "<group>"; };
+		4A4464AF234C27CE00EF31DF /* ShareBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A4464B2234C27CE00EF31DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A4464B3234C27CE00EF31DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A4464B5234C27CE00EF31DF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4A4464B6234C27CE00EF31DF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4A4464B8234C27CE00EF31DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A4464B9234C27CE00EF31DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A4464BC234C27CE00EF31DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A4464BE234C27D000EF31DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A4464C1234C27D000EF31DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A4464C3234C27D000EF31DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A4464C4234C27D000EF31DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A4464CA234C27D000EF31DF /* ShareBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A4464CE234C27D000EF31DF /* ShareBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareBookTests.m; sourceTree = "<group>"; };
+		4A4464D0234C27D000EF31DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A4464D5234C27D000EF31DF /* ShareBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A4464D9234C27D000EF31DF /* ShareBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareBookUITests.m; sourceTree = "<group>"; };
+		4A4464DB234C27D000EF31DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A446588234C67B400EF31DF /* SCBNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCBNavigationController.h; sourceTree = "<group>"; };
+		4A446589234C67B400EF31DF /* SCBNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCBNavigationController.m; sourceTree = "<group>"; };
+		4A44658B234C67EB00EF31DF /* SCBTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCBTabBarController.h; sourceTree = "<group>"; };
+		4A44658C234C67EB00EF31DF /* SCBTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCBTabBarController.m; sourceTree = "<group>"; };
+		4A44658F234C6AC600EF31DF /* SCBCustomTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCBCustomTabBar.h; sourceTree = "<group>"; };
+		4A446590234C6AC600EF31DF /* SCBCustomTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCBCustomTabBar.m; sourceTree = "<group>"; };
+		4A446592234C71CC00EF31DF /* SCBHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCBHomeViewController.h; sourceTree = "<group>"; };
+		4A446593234C71CC00EF31DF /* SCBHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCBHomeViewController.m; sourceTree = "<group>"; };
+		4A446595234C71D400EF31DF /* SCBMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCBMineViewController.h; sourceTree = "<group>"; };
+		4A446596234C71D400EF31DF /* SCBMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCBMineViewController.m; sourceTree = "<group>"; };
+		4A446598234C71ED00EF31DF /* SCBBookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCBBookViewController.h; sourceTree = "<group>"; };
+		4A446599234C71ED00EF31DF /* SCBBookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCBBookViewController.m; sourceTree = "<group>"; };
+		4A44659B234C722500EF31DF /* SCBFindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCBFindViewController.h; sourceTree = "<group>"; };
+		4A44659C234C722500EF31DF /* SCBFindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCBFindViewController.m; sourceTree = "<group>"; };
+		4A44659F234C7D0700EF31DF /* SCBPublishViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCBPublishViewController.h; sourceTree = "<group>"; };
+		4A4465A0234C7D0700EF31DF /* SCBPublishViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCBPublishViewController.m; sourceTree = "<group>"; };
+		5849DF4634A0C07ACDD6859B /* Pods-ShareBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareBookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareBookTests/Pods-ShareBookTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B02D1A42A4226B8D82C0DE4 /* libPods-ShareBookTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShareBookTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		915AC5A1A7DD1221CA740544 /* Pods-ShareBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareBook/Pods-ShareBook.debug.xcconfig"; sourceTree = "<group>"; };
+		D687F95AC6C6C021DCC5CD00 /* libPods-ShareBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShareBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9AB04D073D2C2BF355BF78A /* Pods-ShareBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareBookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareBookUITests/Pods-ShareBookUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A4464AC234C27CE00EF31DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7267C62A43356278D828529 /* libPods-ShareBook.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A4464C7234C27D000EF31DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C209CFE5D1F38178918B9F /* libPods-ShareBookTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A4464D2234C27D000EF31DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BBEFF8593E1744E9F20187 /* libPods-ShareBookUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A4464A6234C27CE00EF31DF = {
+			isa = PBXGroup;
+			children = (
+				4A4464B1234C27CE00EF31DF /* ShareBook */,
+				4A4464CD234C27D000EF31DF /* ShareBookTests */,
+				4A4464D8234C27D000EF31DF /* ShareBookUITests */,
+				4A4464B0234C27CE00EF31DF /* Products */,
+				89C5BC4CE40E56AC5009CA3F /* Pods */,
+				66ED4555777063555E292DBC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A4464B0234C27CE00EF31DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A4464AF234C27CE00EF31DF /* ShareBook.app */,
+				4A4464CA234C27D000EF31DF /* ShareBookTests.xctest */,
+				4A4464D5234C27D000EF31DF /* ShareBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A4464B1234C27CE00EF31DF /* ShareBook */ = {
+			isa = PBXGroup;
+			children = (
+				4A4464B2234C27CE00EF31DF /* AppDelegate.h */,
+				4A4464B3234C27CE00EF31DF /* AppDelegate.m */,
+				4A4464B5234C27CE00EF31DF /* SceneDelegate.h */,
+				4A4464B6234C27CE00EF31DF /* SceneDelegate.m */,
+				4A4464B8234C27CE00EF31DF /* ViewController.h */,
+				4A4464B9234C27CE00EF31DF /* ViewController.m */,
+				4A44659E234C722B00EF31DF /* Module */,
+				4A44658E234C6AA700EF31DF /* Root */,
+				4A4464BB234C27CE00EF31DF /* Main.storyboard */,
+				4A4464BE234C27D000EF31DF /* Assets.xcassets */,
+				4A4464C0234C27D000EF31DF /* LaunchScreen.storyboard */,
+				4A4464C3234C27D000EF31DF /* Info.plist */,
+				4A4464C4234C27D000EF31DF /* main.m */,
+			);
+			path = ShareBook;
+			sourceTree = "<group>";
+		};
+		4A4464CD234C27D000EF31DF /* ShareBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A4464CE234C27D000EF31DF /* ShareBookTests.m */,
+				4A4464D0234C27D000EF31DF /* Info.plist */,
+			);
+			path = ShareBookTests;
+			sourceTree = "<group>";
+		};
+		4A4464D8234C27D000EF31DF /* ShareBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A4464D9234C27D000EF31DF /* ShareBookUITests.m */,
+				4A4464DB234C27D000EF31DF /* Info.plist */,
+			);
+			path = ShareBookUITests;
+			sourceTree = "<group>";
+		};
+		4A44658E234C6AA700EF31DF /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				4A446588234C67B400EF31DF /* SCBNavigationController.h */,
+				4A446589234C67B400EF31DF /* SCBNavigationController.m */,
+				4A44658B234C67EB00EF31DF /* SCBTabBarController.h */,
+				4A44658C234C67EB00EF31DF /* SCBTabBarController.m */,
+				4A44658F234C6AC600EF31DF /* SCBCustomTabBar.h */,
+				4A446590234C6AC600EF31DF /* SCBCustomTabBar.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		4A44659E234C722B00EF31DF /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				4A446592234C71CC00EF31DF /* SCBHomeViewController.h */,
+				4A446593234C71CC00EF31DF /* SCBHomeViewController.m */,
+				4A446595234C71D400EF31DF /* SCBMineViewController.h */,
+				4A446596234C71D400EF31DF /* SCBMineViewController.m */,
+				4A446598234C71ED00EF31DF /* SCBBookViewController.h */,
+				4A446599234C71ED00EF31DF /* SCBBookViewController.m */,
+				4A44659B234C722500EF31DF /* SCBFindViewController.h */,
+				4A44659C234C722500EF31DF /* SCBFindViewController.m */,
+				4A44659F234C7D0700EF31DF /* SCBPublishViewController.h */,
+				4A4465A0234C7D0700EF31DF /* SCBPublishViewController.m */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		66ED4555777063555E292DBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D687F95AC6C6C021DCC5CD00 /* libPods-ShareBook.a */,
+				8B02D1A42A4226B8D82C0DE4 /* libPods-ShareBookTests.a */,
+				1951578DDE65D4C381BDF51C /* libPods-ShareBookUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89C5BC4CE40E56AC5009CA3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				915AC5A1A7DD1221CA740544 /* Pods-ShareBook.debug.xcconfig */,
+				2B67C9B7167E660CFA7F9797 /* Pods-ShareBook.release.xcconfig */,
+				2747816F17E0DBEED2E310B3 /* Pods-ShareBookTests.debug.xcconfig */,
+				5849DF4634A0C07ACDD6859B /* Pods-ShareBookTests.release.xcconfig */,
+				177684D6AEC28D7C05527487 /* Pods-ShareBookUITests.debug.xcconfig */,
+				F9AB04D073D2C2BF355BF78A /* Pods-ShareBookUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A4464AE234C27CE00EF31DF /* ShareBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A4464DE234C27D000EF31DF /* Build configuration list for PBXNativeTarget "ShareBook" */;
+			buildPhases = (
+				855056EAF614D9F5EF4075A0 /* [CP] Check Pods Manifest.lock */,
+				4A4464AB234C27CE00EF31DF /* Sources */,
+				4A4464AC234C27CE00EF31DF /* Frameworks */,
+				4A4464AD234C27CE00EF31DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareBook;
+			productName = ShareBook;
+			productReference = 4A4464AF234C27CE00EF31DF /* ShareBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A4464C9234C27D000EF31DF /* ShareBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A4464E1234C27D000EF31DF /* Build configuration list for PBXNativeTarget "ShareBookTests" */;
+			buildPhases = (
+				A43B1A8A165A846678195895 /* [CP] Check Pods Manifest.lock */,
+				4A4464C6234C27D000EF31DF /* Sources */,
+				4A4464C7234C27D000EF31DF /* Frameworks */,
+				4A4464C8234C27D000EF31DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A4464CC234C27D000EF31DF /* PBXTargetDependency */,
+			);
+			name = ShareBookTests;
+			productName = ShareBookTests;
+			productReference = 4A4464CA234C27D000EF31DF /* ShareBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A4464D4234C27D000EF31DF /* ShareBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A4464E4234C27D000EF31DF /* Build configuration list for PBXNativeTarget "ShareBookUITests" */;
+			buildPhases = (
+				3AD47D7734399FF82E35C626 /* [CP] Check Pods Manifest.lock */,
+				4A4464D1234C27D000EF31DF /* Sources */,
+				4A4464D2234C27D000EF31DF /* Frameworks */,
+				4A4464D3234C27D000EF31DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A4464D7234C27D000EF31DF /* PBXTargetDependency */,
+			);
+			name = ShareBookUITests;
+			productName = ShareBookUITests;
+			productReference = 4A4464D5234C27D000EF31DF /* ShareBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A4464A7234C27CE00EF31DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = lzy;
+				TargetAttributes = {
+					4A4464AE234C27CE00EF31DF = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					4A4464C9234C27D000EF31DF = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 4A4464AE234C27CE00EF31DF;
+					};
+					4A4464D4234C27D000EF31DF = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 4A4464AE234C27CE00EF31DF;
+					};
+				};
+			};
+			buildConfigurationList = 4A4464AA234C27CE00EF31DF /* Build configuration list for PBXProject "ShareBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A4464A6234C27CE00EF31DF;
+			productRefGroup = 4A4464B0234C27CE00EF31DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A4464AE234C27CE00EF31DF /* ShareBook */,
+				4A4464C9234C27D000EF31DF /* ShareBookTests */,
+				4A4464D4234C27D000EF31DF /* ShareBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A4464AD234C27CE00EF31DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4464C2234C27D000EF31DF /* LaunchScreen.storyboard in Resources */,
+				4A4464BF234C27D000EF31DF /* Assets.xcassets in Resources */,
+				4A4464BD234C27CE00EF31DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A4464C8234C27D000EF31DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A4464D3234C27D000EF31DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AD47D7734399FF82E35C626 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShareBookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		855056EAF614D9F5EF4075A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShareBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A43B1A8A165A846678195895 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShareBookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A4464AB234C27CE00EF31DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A44659D234C722500EF31DF /* SCBFindViewController.m in Sources */,
+				4A44659A234C71ED00EF31DF /* SCBBookViewController.m in Sources */,
+				4A4464BA234C27CE00EF31DF /* ViewController.m in Sources */,
+				4A446591234C6AC600EF31DF /* SCBCustomTabBar.m in Sources */,
+				4A446594234C71CC00EF31DF /* SCBHomeViewController.m in Sources */,
+				4A4464B4234C27CE00EF31DF /* AppDelegate.m in Sources */,
+				4A446597234C71D400EF31DF /* SCBMineViewController.m in Sources */,
+				4A4465A1234C7D0700EF31DF /* SCBPublishViewController.m in Sources */,
+				4A4464C5234C27D000EF31DF /* main.m in Sources */,
+				4A4464B7234C27CE00EF31DF /* SceneDelegate.m in Sources */,
+				4A44658D234C67EB00EF31DF /* SCBTabBarController.m in Sources */,
+				4A44658A234C67B400EF31DF /* SCBNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A4464C6234C27D000EF31DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4464CF234C27D000EF31DF /* ShareBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A4464D1234C27D000EF31DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4464DA234C27D000EF31DF /* ShareBookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A4464CC234C27D000EF31DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A4464AE234C27CE00EF31DF /* ShareBook */;
+			targetProxy = 4A4464CB234C27D000EF31DF /* PBXContainerItemProxy */;
+		};
+		4A4464D7234C27D000EF31DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A4464AE234C27CE00EF31DF /* ShareBook */;
+			targetProxy = 4A4464D6234C27D000EF31DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A4464BB234C27CE00EF31DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A4464BC234C27CE00EF31DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A4464C0234C27D000EF31DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A4464C1234C27D000EF31DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A4464DC234C27D000EF31DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A4464DD234C27D000EF31DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A4464DF234C27D000EF31DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 915AC5A1A7DD1221CA740544 /* Pods-ShareBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DYL533N39;
+				INFOPLIST_FILE = ShareBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lzy.ShareBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A4464E0234C27D000EF31DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B67C9B7167E660CFA7F9797 /* Pods-ShareBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DYL533N39;
+				INFOPLIST_FILE = ShareBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lzy.ShareBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A4464E2234C27D000EF31DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2747816F17E0DBEED2E310B3 /* Pods-ShareBookTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DYL533N39;
+				INFOPLIST_FILE = ShareBookTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lzy.ShareBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareBook.app/ShareBook";
+			};
+			name = Debug;
+		};
+		4A4464E3234C27D000EF31DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5849DF4634A0C07ACDD6859B /* Pods-ShareBookTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DYL533N39;
+				INFOPLIST_FILE = ShareBookTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lzy.ShareBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareBook.app/ShareBook";
+			};
+			name = Release;
+		};
+		4A4464E5234C27D000EF31DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 177684D6AEC28D7C05527487 /* Pods-ShareBookUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DYL533N39;
+				INFOPLIST_FILE = ShareBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lzy.ShareBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShareBook;
+			};
+			name = Debug;
+		};
+		4A4464E6234C27D000EF31DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9AB04D073D2C2BF355BF78A /* Pods-ShareBookUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DYL533N39;
+				INFOPLIST_FILE = ShareBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lzy.ShareBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShareBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A4464AA234C27CE00EF31DF /* Build configuration list for PBXProject "ShareBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A4464DC234C27D000EF31DF /* Debug */,
+				4A4464DD234C27D000EF31DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A4464DE234C27D000EF31DF /* Build configuration list for PBXNativeTarget "ShareBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A4464DF234C27D000EF31DF /* Debug */,
+				4A4464E0234C27D000EF31DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A4464E1234C27D000EF31DF /* Build configuration list for PBXNativeTarget "ShareBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A4464E2234C27D000EF31DF /* Debug */,
+				4A4464E3234C27D000EF31DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A4464E4234C27D000EF31DF /* Build configuration list for PBXNativeTarget "ShareBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A4464E5234C27D000EF31DF /* Debug */,
+				4A4464E6234C27D000EF31DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A4464A7234C27CE00EF31DF /* Project object */;
+}
