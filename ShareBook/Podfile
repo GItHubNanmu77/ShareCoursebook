@@ -8,9 +8,9 @@ target 'ShareBook' do
   pod 'SDCycleScrollView', :git =>'https://github.com/gsdios/SDCycleScrollView.git', :inhibit_warnings => true
   pod 'YYModel', :git => 'https://github.com/ibireme/YYModel.git', :inhibit_warnings => true
   pod 'TZImagePickerController',:git =>'https://github.com/banchichen/TZImagePickerController.git',:inhibit_warnings => true
-  pod 'MBProgressHUD', :git => 'https://github.com/jdg/MBProgressHUD.git', :inhibit_warnings => true
+#  pod 'MBProgressHUD', :git => 'https://github.com/jdg/MBProgressHUD.git', :inhibit_warnings => true
   pod 'SGQRCode', '~> 3.0.1'
-  pod 'LZYVendor', :git => 'https://github.com/GItHubNanmu77/LZYVendor.git',:tag => '1.0.0', :inhibit_warnings => true
+  pod 'LZYVendor', :git => 'https://github.com/GItHubNanmu77/LZYVendor.git',:tag => '1.0.2', :inhibit_warnings => true
   # Pods for ShareBook
 
   target 'ShareBookTests' do

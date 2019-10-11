@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -85,6 +85,7 @@
 		4A44659C234C722500EF31DF /* SCBFindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCBFindViewController.m; sourceTree = "<group>"; };
 		4A44659F234C7D0700EF31DF /* SCBPublishViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCBPublishViewController.h; sourceTree = "<group>"; };
 		4A4465A0234C7D0700EF31DF /* SCBPublishViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCBPublishViewController.m; sourceTree = "<group>"; };
+		4A4466ED2350601500EF31DF /* SCBMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCBMacro.h; sourceTree = "<group>"; };
 		5849DF4634A0C07ACDD6859B /* Pods-ShareBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareBookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareBookTests/Pods-ShareBookTests.release.xcconfig"; sourceTree = "<group>"; };
 		8B02D1A42A4226B8D82C0DE4 /* libPods-ShareBookTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShareBookTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		915AC5A1A7DD1221CA740544 /* Pods-ShareBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareBook/Pods-ShareBook.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +148,7 @@
 			children = (
 				4A4464B2234C27CE00EF31DF /* AppDelegate.h */,
 				4A4464B3234C27CE00EF31DF /* AppDelegate.m */,
+				4A4466ED2350601500EF31DF /* SCBMacro.h */,
 				4A4464B5234C27CE00EF31DF /* SceneDelegate.h */,
 				4A4464B6234C27CE00EF31DF /* SceneDelegate.m */,
 				4A4464B8234C27CE00EF31DF /* ViewController.h */,
@@ -196,18 +198,58 @@
 		4A44659E234C722B00EF31DF /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				4A4466EA23505E0800EF31DF /* Home */,
+				4A4466F02350628100EF31DF /* Mine */,
+				4A4466EB23505EF800EF31DF /* Book */,
+				4A4466EE2350622100EF31DF /* Find */,
+				4A4466EF2350622A00EF31DF /* Publish */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		4A4466EA23505E0800EF31DF /* Home */ = {
+			isa = PBXGroup;
+			children = (
 				4A446592234C71CC00EF31DF /* SCBHomeViewController.h */,
 				4A446593234C71CC00EF31DF /* SCBHomeViewController.m */,
-				4A446595234C71D400EF31DF /* SCBMineViewController.h */,
-				4A446596234C71D400EF31DF /* SCBMineViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4A4466EB23505EF800EF31DF /* Book */ = {
+			isa = PBXGroup;
+			children = (
 				4A446598234C71ED00EF31DF /* SCBBookViewController.h */,
 				4A446599234C71ED00EF31DF /* SCBBookViewController.m */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		4A4466EE2350622100EF31DF /* Find */ = {
+			isa = PBXGroup;
+			children = (
 				4A44659B234C722500EF31DF /* SCBFindViewController.h */,
 				4A44659C234C722500EF31DF /* SCBFindViewController.m */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		4A4466EF2350622A00EF31DF /* Publish */ = {
+			isa = PBXGroup;
+			children = (
 				4A44659F234C7D0700EF31DF /* SCBPublishViewController.h */,
 				4A4465A0234C7D0700EF31DF /* SCBPublishViewController.m */,
 			);
-			path = Module;
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		4A4466F02350628100EF31DF /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				4A446595234C71D400EF31DF /* SCBMineViewController.h */,
+				4A446596234C71D400EF31DF /* SCBMineViewController.m */,
+			);
+			path = Mine;
 			sourceTree = "<group>";
 		};
 		66ED4555777063555E292DBC /* Frameworks */ = {
